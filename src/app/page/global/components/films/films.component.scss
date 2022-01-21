@@ -1,0 +1,30 @@
+@import "../../../../../assets/responsive.scss";
+
+.sciFi {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-weight: 100;
+    padding: 10px;
+  }
+  .listaScifi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    @include tablet {
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+      list-style: none;
+    }
+
+    img {
+      padding: 5px;
+      width: 200px;
+    }
+  }
+}

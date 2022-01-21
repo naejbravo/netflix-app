@@ -1,0 +1,8 @@
+<div class="hero">
+  <h1>{{ hero.title }}</h1>
+  <ul class="listaHero">
+      <li *ngFor="let item of hero.imageGallery">
+          <img src="{{item.src}}" alt="{{item.alt}}">
+      </li>
+  </ul>
+</div>

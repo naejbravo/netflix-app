@@ -1,0 +1,9 @@
+<div class="sciFi">
+    <h1>{{ film.title }}</h1>
+    <ul class="listaScifi">
+        <li *ngFor="let item of film.imageGallery">
+            <img src="{{item.src}}" alt="{{item.alt}}">
+        </li>
+    </ul>
+  </div>
+  

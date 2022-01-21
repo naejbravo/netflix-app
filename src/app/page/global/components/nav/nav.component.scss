@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width: 100px;
+    }
+    .btn-container{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 15px;
+            color: whitesmoke;
+        }
+    }
+}

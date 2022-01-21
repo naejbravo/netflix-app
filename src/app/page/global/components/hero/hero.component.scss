@@ -1,0 +1,29 @@
+@import "../../../../../assets/responsive.scss";
+.hero {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-weight: 100;
+    padding: 10px;
+  }
+  .listaHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    @include tablet {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+      list-style: none;
+    }
+    img {
+      padding: 5px;
+      width: 200px;
+    }
+  }
+}
